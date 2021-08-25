@@ -1,0 +1,23 @@
+DBPRODUTOS
+
+
+R1
+ update produtos set valor = valor * 1.12 where nome like 'f%';
+ 
+ 
+R2 
+ update produtos set quantidade = valor + 50 where valor between 400 and 600;
+ 
+R3
+ update produtos set valor = valor * 0.50 where quantidade >= 300;  
+
+R4
+ select * from produtos where codigo in ('4');
+
+R5
+  select * from produtos where nome not like '%y%';
+
+R6
+ select * from produtos where nome like 'mo%' and tipo like '%ma%';  
+ 
+ 
